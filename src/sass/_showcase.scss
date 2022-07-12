@@ -27,7 +27,7 @@
   .loc__icon {
     width: 2.5rem;
     height: 2.5rem;
-    fill: #000;
+    fill: var(--primary);
   }
   .loc__item {
     display: flex;
