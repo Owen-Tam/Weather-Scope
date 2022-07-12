@@ -41,7 +41,7 @@ export const loadPos = async function () {
 export const loadWeather = async function (pos) {
   const { latitude, longitude } = pos;
   const res = await fetch(
-    `${API_URL}?lat=${latitude}&lon=${longitude}&appid=${KEY}`
+    `${API_URL}?lat=${latitude}&lon=${longitude}&appid=${KEY}&mode=metric`
   );
   const data = await res.json();
   console.log(data);
