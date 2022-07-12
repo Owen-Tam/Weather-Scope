@@ -33,7 +33,7 @@ class WeatherView {
   }
   _formatWeather(weather) {
     return `<div class="showcase-basic-info">
-    <h2 class="loc__name">${weather.region}</h2>
+    <h2 class="loc__name">${weather.loc}</h2>
     <h3 class="loc__weather-description">${
       weather.condition.slice(0, 1).toUpperCase() + weather.condition.slice(1)
     }</h3>
