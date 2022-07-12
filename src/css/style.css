@@ -1,0 +1,139 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary: #000;
+  --secondary: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary: #fff;
+    --secondary: #000;
+  }
+}
+.container {
+  background: url("../img/clouds.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  padding: 2.5% 4%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 1;
+  color: black;
+}
+.showcase {
+  color: var(--primary);
+  background: var(--secondary);
+  margin: auto 0;
+  padding: 5%;
+  width: 50vw;
+  -webkit-box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
+}
+.showcase li {
+  list-style: none;
+  margin-block: 0.5rem;
+}
+.showcase h2 {
+  font-size: 1.5rem;
+  color: #3d3d3d;
+}
+.showcase h3 {
+  margin-top: 0.5rem;
+  font-size: 3.3rem;
+}
+.showcase__info {
+  margin-top: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10%;
+  font-size: 1.5rem;
+}
+.showcase .loc__icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: #000;
+}
+.showcase .loc__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.showcase {
+  color: var(--primary);
+  background: var(--secondary);
+  margin: auto 0;
+  padding: 5%;
+  width: 50vw;
+  -webkit-box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
+}
+.showcase li {
+  list-style: none;
+  margin-block: 0.5rem;
+}
+.showcase h2 {
+  font-size: 1.5rem;
+  color: #3d3d3d;
+}
+.showcase h3 {
+  margin-top: 0.5rem;
+  font-size: 3.3rem;
+}
+.showcase__info {
+  margin-top: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10%;
+  font-size: 1.5rem;
+}
+.showcase .loc__icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: #000;
+}
+.showcase .loc__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+/*# sourceMappingURL=style.css.map */

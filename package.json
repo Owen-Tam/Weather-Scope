@@ -1,0 +1,28 @@
+{
+  "name": "weather-scope",
+  "version": "1.0.0",
+  "description": "A weather app",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Owen-Tam/Weather-Scope.git"
+  },
+  "author": "Owen Tam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Owen-Tam/Weather-Scope/issues"
+  },
+  "homepage": "https://github.com/Owen-Tam/Weather-Scope#readme",
+  "dependencies": {
+    "core.js": "^0.4.2",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.52.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0"
+  }
+}
