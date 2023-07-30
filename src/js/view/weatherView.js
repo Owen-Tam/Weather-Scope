@@ -40,12 +40,18 @@ class WeatherView {
     </div>
   <div class="showcase__info">
     <ul class="showcase__complex-info">
-      <li class="loc__temperature loc__item">
+      <li class=" loc__item">
         <img class="loc__icon icon" src="${tempSvg}" alt="" />
-        <p class="loc__max-temp">Max-Temp: ${Math.round(weather.tempMax)}°C</p>
+        <div class="loc__temperature">
+          <p class="loc__max-temp">Max-Temp: ${Math.round(
+            weather.tempMax
+          )}°C</p>
 
-        <p class="loc__min-temp">Min-Temp: ${Math.round(weather.tempMin)}°C</p>
-      </li>
+          <p class="loc__min-temp">Min-Temp: ${Math.round(
+            weather.tempMin
+          )}°C</p>
+        </div>
+        </li>
 
       <li class="loc__item">
         <img class="loc__icon icon" src="${pressureSvg}" alt="" />
